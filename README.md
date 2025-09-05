@@ -1,5 +1,10 @@
 # Image Enhancement with GA & VNS 🚀🖼️
 
+<p align="center">
+  <img src="cover_photo1.jpg" alt="cover_photo1" width="400"/>
+  <img src="cover_photo2.jpg" alt="cover_photo2" width="400"/>
+</p>
+
 _Evolve image-enhancement pipelines that **actually** make pictures look better—automatically._  
 This repo trains two search algorithms—**Genetic Algorithm (GA)** and **Variable Neighbourhood Search (VNS)**—to discover the best sequence of classical ops (gamma, Gaussian blur, unsharp masking, histogram equalisation, contrast stretching) for grayscale images.
 
@@ -25,6 +30,7 @@ This repo trains two search algorithms—**Genetic Algorithm (GA)** and **Variab
 ```
 .
 ├─ src/
+|  ├─ utils.py       # helpers: image I/O, clipping, seeding, logging
 │  ├─ dataset.py     # strict pairing & loaders
 │  ├─ ops.py         # gamma, gauss, unsharp, he, cstretch (+bounds/clamp)
 │  ├─ pipeline.py    # pipeline schema, sampler, apply, pretty formatting
