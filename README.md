@@ -166,7 +166,7 @@ Use **GA ➜ VNS** as a strong baseline: GA finds a good region; VNS refines it.
 
 ## 🙌 Acknowledgements
 
-Built for **COS791 (2025) – Assignment 1**. Classical algorithm ideas draw on foundational work by Holland (GA) and by Mladenović & Hansen (VNS).
+Built for my **COS791 (2025) – Assignment 1**. Classical algorithm ideas draw on foundational work by Holland (GA) and by Mladenović & Hansen (VNS).
 
 ---
 
